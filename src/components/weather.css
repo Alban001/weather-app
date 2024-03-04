@@ -1,0 +1,59 @@
+.weather{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;  
+     
+}
+.weather--list{
+     ul{
+          list-style: none;
+          span{
+               margin-right: 0.5rem;
+          }
+     }
+     
+}
+footer{
+
+     .Busqueda{
+          button{
+               padding: 0.6rem;
+               border-radius: 0.8rem;
+               border-style: none;
+          }
+          input{
+               padding: 0.4rem;
+               border-radius: 0.5rem;
+               margin: 1rem;
+               border-style: none;
+          }
+          
+     }
+     button{
+          padding: 1rem;
+          border-radius: 0.8rem;
+          border-style: none;
+          margin-left:1rem;
+     }
+     button:hover{
+          background-color: rgba(255, 131, 43, 0.519);
+     }
+}
+
+
+@media only screen and (max-width: 750px) {
+    
+     footer{
+          button{
+               padding: 0.6rem;
+               border-radius: 0.8rem;
+               border-style: none;
+               font-size: 0.8rem;
+
+          }
+          button:hover{
+               background-color: rgba(255, 82, 43, 0.519);
+          }
+     }
+   }

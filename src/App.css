@@ -1,0 +1,32 @@
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  width: 30rem;
+  height: auto;
+  border-radius: 2rem;
+  background-image: url('clouds.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  
+}
+
+@media only screen and (max-width: 750px) {
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    width: 20rem;
+    font-size: 0.8rem;
+    height: auto;
+    border-radius: 2rem;
+    background-image: url('clouds.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
+}
