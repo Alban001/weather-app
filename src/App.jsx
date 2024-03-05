@@ -37,7 +37,7 @@ function App() {
         .catch(err=>  console.log(err))
     }
  
-  }, [])
+  }, [cords])
   
   return (
     <>
