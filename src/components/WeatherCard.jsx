@@ -5,14 +5,8 @@ import './weather.css'
 const WeatherCard = ({ weather, temper }) => {
   console.log(weather)
   const [celsius, setCelsius] = useState(true)
-  const [inp, setinp] = useState()
   
-  const inputRef = useRef()
-    const handleSubmit=(e)=>{
-        e.preventDefault()
-        setinp(inputRef.current.value.trim().toLowerCase())
-        
-    }
+
 
   const handleTemperature = () => {
     setCelsius(!celsius)
@@ -39,11 +33,7 @@ const WeatherCard = ({ weather, temper }) => {
         <h2>{celsius ? `${temper?.celsius} °C` : `${temper?.fharenheit}°F`}</h2>
       </section>
       <footer>
-        <div className='Busqueda'>
-          <p>Ingrese una ubicacion</p>
-          <input type="text" ref={inputRef} />
-          <button onClick={handleSubmit}>Search</button>
-        </div>
+        
         <button onClick={handleTemperature}>Change to F°/C°</button>
       </footer>
     </article>

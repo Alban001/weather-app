@@ -16,20 +16,7 @@
 }
 footer{
 
-     .Busqueda{
-          button{
-               padding: 0.6rem;
-               border-radius: 0.8rem;
-               border-style: none;
-          }
-          input{
-               padding: 0.4rem;
-               border-radius: 0.5rem;
-               margin: 1rem;
-               border-style: none;
-          }
-          
-     }
+   
      button{
           padding: 1rem;
           border-radius: 0.8rem;
