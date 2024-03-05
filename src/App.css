@@ -11,6 +11,7 @@
   background-image: url('./assets/clouds.jpg');
   object-fit: cover;
   background-repeat: no-repeat;
+ 
   
 }
 
@@ -28,5 +29,6 @@
     background-image: url('./assets/clouds.jpg');
     object-fit: cover;
     background-repeat: no-repeat;
+    
   }
 }
